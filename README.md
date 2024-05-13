@@ -7,19 +7,13 @@
 ## Installation
 
 ```shell
-git clone https://gitlab.com/begeekedlabs/community-site/community-site.git
-cd event-site
+git clone https://github.com/ahmd-ramzan/trial-task.git
+cd trial-task
 ```
 ```shell
 composer install
-# or in a production environment
-composer install --no-dev
 # or for local (Windows) enviroment
 composer install --ignore-platform-reqs
-
-npm install
-#Start your build process
-npm run dev
 ```
 ```shell
 cp .env.example .env
@@ -27,3 +21,10 @@ cp .env.example .env
 
 ```shell
 php artisan key:generate
+```
+
+## Files To Review
+- app/Livewire/HomePage.php
+- app/Livewire/Tabs/BasicInformationTab.php
+- app/Livewire/Tabs/MarriageTab.php
+- app/Livewire/Tabs/OutputTab.php
